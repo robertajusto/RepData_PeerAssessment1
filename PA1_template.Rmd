@@ -7,7 +7,9 @@ output: html_document
 
 Loading and preprocessing the data
 ===
-
+```{r}
+echo=TRUE
+```
 ```{r}
 data<- read.csv("activity.csv")
 head(data)
